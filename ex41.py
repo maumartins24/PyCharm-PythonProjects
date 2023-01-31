@@ -6,5 +6,9 @@ if idade <= 9:
     print('Com {} anos a categoria do atleta será MIRIM!'.format(idade))
 elif idade <=14:
     print('Com {} anos a categoria do atleta será INFANTIL!'.format(idade))
+elif idade <= 19:
+    print('Com {} anos a categoria do atleta será JÚNIOR'.format(idade))
+elif idade <= 25:
+    print('Com {} anos a categoria do atleta será SÊNIOR'.format(idade))
 else:
-    print('com {} anos o atleta não se enquadra!'.format(idade))
+    print('Com {} anos a categoria do atleta será MASTER'.format(idade))
